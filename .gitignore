@@ -1,6 +1,11 @@
 src/models/mlruns/
 src/notebooks/mlruns/
+models/mlruns/
+notebooks/mlruns/
 .vscode
+
+src/models/verif_mlflow.py
+models/verif_mlflow.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
