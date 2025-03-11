@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 src/models/mlruns/
 src/notebooks/mlruns/
 <<<<<<< Updated upstream
@@ -12,6 +13,12 @@ notebooks/mlruns/
 models/mlruns/
 .vscode
 
+models/verif_mlflow.py
+src/models/verif_mlflow.py
+>>>>>>> Stashed changes
+=======
+notebooks/mlruns/
+models/mlruns/
 models/verif_mlflow.py
 src/models/verif_mlflow.py
 >>>>>>> Stashed changes
