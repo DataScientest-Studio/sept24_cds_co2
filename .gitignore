@@ -1,11 +1,20 @@
 src/models/mlruns/
 src/notebooks/mlruns/
+<<<<<<< Updated upstream
 models/mlruns/
 notebooks/mlruns/
 .vscode
 
 src/models/verif_mlflow.py
 models/verif_mlflow.py
+=======
+notebooks/mlruns/
+models/mlruns/
+.vscode
+
+models/verif_mlflow.py
+src/models/verif_mlflow.py
+>>>>>>> Stashed changes
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
