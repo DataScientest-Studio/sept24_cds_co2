@@ -1,7 +1,8 @@
-Project Name
+Prédiction des émissions de CO2 selon les caractéristiques des véhicules
 ==============================
 
-This repo is a Starting Pack for DS projects. You can rearrange the structure to make it fits your project.
+This is a project by Polina, Vincent and Denis.
+Data from the EEA is used in order to build prediction models for CO2 emissions based on vehicle chracteristics.
 
 Project Organization
 ------------
