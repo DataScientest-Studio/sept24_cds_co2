@@ -4,6 +4,12 @@ Prédiction des émissions de CO2 selon les caractéristiques des véhicules
 This is a project by Polina, Vincent and Denis.
 Data from the EEA is used in order to build prediction models for CO2 emissions based on vehicle chracteristics.
 
+Steps done:
+* Data cleaned (errors, outliers, duplicates, missing data)
+* Data enriched (dichotomization, interpretation of innovative technology codes)
+* Evaluation of regression models (select models, select hyperparameters, vizualise with mlflow, arbitrate on robustness and compare scoring)
+* Use model to make prediction based on new vehicle characteristics
+
 Project Organization
 ------------
 
