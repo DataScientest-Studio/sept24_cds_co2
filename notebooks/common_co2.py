@@ -129,3 +129,78 @@ def display_roc(X_test_scaled, y_test, y_pred_proba, model):
     plt.legend(loc='lower right')
     plt.grid()
     plt.show()
+
+
+# fonction pour pénaliser la classe 2 versus classe 3
+def adjust_with_penalty(y_prob, threshold):
+    """
+    Adjusts the predicted probabilities to favor class 2 over class 3 based on a threshold.
+
+    Parameters:
+    - y_prob: array-like, predicted probabilities for each class
+    - threshold: float, the threshold to determine when to favor class 2
+    """
+    # y_prob est un tableau de probabilités prédites pour chaque classe
+    # y_prob.shape[0] = nombre d'échantillons
+    # y_prob.shape[1] = nombre de classes (ici 7)
+    
+    # Prédire les classes sur les données de test
+    y_adjusted_pred = []
+
+    # Custom logic: on priorisera class 2 si c'est celle qui est la plus probable au threshold près
+    for prob in y_prob:
+        # La classe avec la plus haute probe est:
+        max_prob_class_index = np.argmax(prob)
+
+        # Check if class 2 is close enough to the maximum probability
+        if prob[1] >= prob[max_prob_class_index] - threshold:  # Quand suffisemment proche du max
+            y_adjusted_pred.append(2)  # Favoriser la classe 2
+        else:
+            y_adjusted_pred.append(max_prob_class_index+1) 
+
+    return np.array(y_adjusted_pred)
+
+
+
+# function to check which lines have changed, between y_pred, y_adjusted_pred, and what is the y_test of same index
+# and tell how many lines have been adjusted to 2 for a good and how many for a bad reason.
+import pandas as pd
+
+def check_differences(y_pred, y_adjusted_pred, y_test):
+    """
+    Compare the original and adjusted predictions with the actual test labels.
+    
+    Parameters:
+    - y_pred: Original predictions
+    - y_adjusted_pred: Adjusted predictions
+    - y_test: Actual test labels
+    """
+    # Create a DataFrame to compare the Series
+    comparison_df = pd.DataFrame({
+        "Original Prediction": y_pred,
+        "Adjusted Prediction": y_adjusted_pred,
+        "Actual Test Label": y_test
+    })
+
+    # Add a column to indicate differences
+    comparison_df["Difference"] = comparison_df["Original Prediction"] != comparison_df["Adjusted Prediction"]
+
+    # Display rows with differences
+    differences = comparison_df[comparison_df["Difference"]]
+
+# calculate the number of lines where "Adjusted Prediction" is "2" and "Actual Test Label" is not "2"
+    count_misadjustments = comparison_df[
+        (comparison_df["Adjusted Prediction"] == 2) &
+        (comparison_df["Original Prediction"] == 3) &
+        (comparison_df["Actual Test Label"] == 3)
+    ].shape[0]
+
+# calculate the number of rightful adjustments
+    count_right_adjustments = comparison_df[
+        (comparison_df["Adjusted Prediction"] == 2) &
+        (comparison_df["Original Prediction"] == 3) &
+        (comparison_df["Actual Test Label"] == 2)
+    ].shape[0]
+
+    return differences, count_misadjustments, count_right_adjustments
+
