@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 pd.set_option('future.no_silent_downcasting', True)
 
 # charge les chemins vers les fichiers de données : base_processed, base_raw, base_models...
-from init_notebook import base_processed, base_raw, base_models
+from init_notebook import *
 
 def load_our_data_cat():
 
@@ -22,9 +22,23 @@ def load_our_data_cat():
     y_test = y_test[y_column]
     return X_train_scaled, X_test_scaled, y_train, y_test
 
+def load_our_data():
 
-""" 
-Représentation par disques
+    X_train_scaled = pd.read_csv(base_processed + 'X_train_scaled.csv')
+    X_test_scaled = pd.read_csv(base_processed + 'X_test_scaled.csv')
+    y_train = pd.read_csv(base_processed + 'y_train.csv')
+    y_test = pd.read_csv(base_processed + 'y_test.csv')
+    X_train_scaled = X_train_scaled.replace({False: 0, True: 1}).astype(float)
+    X_test_scaled = X_test_scaled.replace({False: 0, True: 1}).astype(float)
+    #
+    y_column = "Ewltp (g/km)"
+    y_train = y_train[y_column]
+    y_test = y_test[y_column]
+    return X_train_scaled, X_test_scaled, y_train, y_test
+
+
+
+""" Représentation par disques
 import matplotlib.pyplot as plt
 
 import pandas as pd
