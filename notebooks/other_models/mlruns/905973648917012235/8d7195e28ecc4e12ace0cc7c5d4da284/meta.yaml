@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/8d7195e28ecc4e12ace0cc7c5d4da284/artifacts
+end_time: 1746609589755
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: 8d7195e28ecc4e12ace0cc7c5d4da284
+run_name: RF_Bayesian_03
+run_uuid: 8d7195e28ecc4e12ace0cc7c5d4da284
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746609586564
+status: 3
+tags: []
+user_id: gerard

@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/42e7fac0f507473099fcb694d1982f32/artifacts
+end_time: 1746609147962
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: 42e7fac0f507473099fcb694d1982f32
+run_name: valuable-trout-845
+run_uuid: 42e7fac0f507473099fcb694d1982f32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746609147948
+status: 3
+tags: []
+user_id: gerard

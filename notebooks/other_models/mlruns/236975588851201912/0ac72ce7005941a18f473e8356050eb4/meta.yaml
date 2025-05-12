@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/236975588851201912/0ac72ce7005941a18f473e8356050eb4/artifacts
+end_time: 1746607477447
+entry_point_name: ''
+experiment_id: '236975588851201912'
+lifecycle_stage: active
+run_id: 0ac72ce7005941a18f473e8356050eb4
+run_name: nervous-midge-66
+run_uuid: 0ac72ce7005941a18f473e8356050eb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746607477435
+status: 3
+tags: []
+user_id: gerard

@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/78db2d12f4294d30a642ecb10e539c59/artifacts
+end_time: 1746608225290
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: 78db2d12f4294d30a642ecb10e539c59
+run_name: rogue-panda-942
+run_uuid: 78db2d12f4294d30a642ecb10e539c59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746608225273
+status: 3
+tags: []
+user_id: gerard

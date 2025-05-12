@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/556035bef22541eebb8702f4f4a56354/artifacts
+end_time: 1746609363841
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: 556035bef22541eebb8702f4f4a56354
+run_name: bedecked-asp-310
+run_uuid: 556035bef22541eebb8702f4f4a56354
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746609363827
+status: 3
+tags: []
+user_id: gerard

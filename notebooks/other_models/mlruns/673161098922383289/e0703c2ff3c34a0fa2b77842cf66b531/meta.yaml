@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/673161098922383289/e0703c2ff3c34a0fa2b77842cf66b531/artifacts
+end_time: 1746625842040
+entry_point_name: ''
+experiment_id: '673161098922383289'
+lifecycle_stage: active
+run_id: e0703c2ff3c34a0fa2b77842cf66b531
+run_name: powerful-conch-487
+run_uuid: e0703c2ff3c34a0fa2b77842cf66b531
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746625627059
+status: 3
+tags: []
+user_id: gerard

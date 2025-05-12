@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/df1110bf191e4be5b580252a8c5ca5bc/artifacts
+end_time: 1746608652381
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: df1110bf191e4be5b580252a8c5ca5bc
+run_name: wise-sow-828
+run_uuid: df1110bf191e4be5b580252a8c5ca5bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746608652367
+status: 3
+tags: []
+user_id: gerard

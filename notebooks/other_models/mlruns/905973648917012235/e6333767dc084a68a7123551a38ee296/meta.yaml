@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/e6333767dc084a68a7123551a38ee296/artifacts
+end_time: 1746609583165
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: e6333767dc084a68a7123551a38ee296
+run_name: capable-shrew-247
+run_uuid: e6333767dc084a68a7123551a38ee296
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746609551259
+status: 3
+tags: []
+user_id: gerard

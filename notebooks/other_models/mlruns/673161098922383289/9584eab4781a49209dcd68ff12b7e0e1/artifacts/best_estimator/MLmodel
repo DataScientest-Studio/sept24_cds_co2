@@ -1,0 +1,42 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.3
+model_size_bytes: 513187160
+model_uuid: 783d244e9b1445c6ac816f521d5deca7
+run_id: 9584eab4781a49209dcd68ff12b7e0e1
+signature:
+  inputs: '[{"type": "double", "name": "m (kg)", "required": true}, {"type": "double",
+    "name": "W (mm)", "required": true}, {"type": "double", "name": "At1 (mm)", "required":
+    true}, {"type": "double", "name": "ec (cm3)", "required": true}, {"type": "double",
+    "name": "ep (KW)", "required": true}, {"type": "double", "name": "z (Wh/km)",
+    "required": true}, {"type": "double", "name": "Electric range (km)", "required":
+    true}, {"type": "double", "name": "IT28", "required": true}, {"type": "double",
+    "name": "IT29", "required": true}, {"type": "double", "name": "IT32", "required":
+    true}, {"type": "double", "name": "IT33", "required": true}, {"type": "double",
+    "name": "IT35", "required": true}, {"type": "double", "name": "IT37", "required":
+    true}, {"type": "double", "name": "IT38", "required": true}, {"type": "double",
+    "name": "IT39", "required": true}, {"type": "double", "name": "Ft_diesel/electric",
+    "required": true}, {"type": "double", "name": "Ft_petrol", "required": true},
+    {"type": "double", "name": "Ft_petrol/electric", "required": true}, {"type": "double",
+    "name": "Cr_M1G", "required": true}, {"type": "double", "name": "Cr_M1S", "required":
+    true}, {"type": "double", "name": "Cr_N1G", "required": true}, {"type": "double",
+    "name": "Fm_H", "required": true}, {"type": "double", "name": "Fm_M", "required":
+    true}, {"type": "double", "name": "Fm_P", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-07 13:19:39.169828'

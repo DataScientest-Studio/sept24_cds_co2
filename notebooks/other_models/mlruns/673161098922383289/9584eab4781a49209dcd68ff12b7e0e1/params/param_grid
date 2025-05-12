@@ -1,0 +1,1 @@
+{'n_estimators': [50, 100, 120, 140, 160, 200, 250], 'max_depth': [None], 'min_samples_split': [8], 'min_samples_leaf': [1, 2, 3, 4]}

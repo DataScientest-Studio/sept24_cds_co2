@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/a76fc3de3e3642d2a06af3ea594484de/artifacts
+end_time: 1746608534846
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: a76fc3de3e3642d2a06af3ea594484de
+run_name: bustling-roo-237
+run_uuid: a76fc3de3e3642d2a06af3ea594484de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746608534832
+status: 3
+tags: []
+user_id: gerard

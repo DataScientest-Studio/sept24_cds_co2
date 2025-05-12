@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/905973648917012235/1d20d0eb346d4a2b8feef72f3409beaf/artifacts
+end_time: 1746609269398
+entry_point_name: ''
+experiment_id: '905973648917012235'
+lifecycle_stage: active
+run_id: 1d20d0eb346d4a2b8feef72f3409beaf
+run_name: casual-perch-562
+run_uuid: 1d20d0eb346d4a2b8feef72f3409beaf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746609269382
+status: 3
+tags: []
+user_id: gerard

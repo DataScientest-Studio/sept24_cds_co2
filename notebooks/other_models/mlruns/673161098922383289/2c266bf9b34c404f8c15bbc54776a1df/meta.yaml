@@ -1,0 +1,15 @@
+artifact_uri: file:///media/gerard/dual/dataScientest/projet/github/sept24_cds_co2/notebooks/other_models/mlruns/673161098922383289/2c266bf9b34c404f8c15bbc54776a1df/artifacts
+end_time: 1746624014084
+entry_point_name: ''
+experiment_id: '673161098922383289'
+lifecycle_stage: active
+run_id: 2c266bf9b34c404f8c15bbc54776a1df
+run_name: RF_contourplot01
+run_uuid: 2c266bf9b34c404f8c15bbc54776a1df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746624013004
+status: 3
+tags: []
+user_id: gerard

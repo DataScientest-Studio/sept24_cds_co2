@@ -1,0 +1,24 @@
+digest: c08f21f8
+name: dataset
+profile: '{"num_rows": 98939, "num_elements": 2374536}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "m (kg)", "required": true},
+  {"type": "double", "name": "W (mm)", "required": true}, {"type": "double", "name":
+  "At1 (mm)", "required": true}, {"type": "double", "name": "ec (cm3)", "required":
+  true}, {"type": "double", "name": "ep (KW)", "required": true}, {"type": "double",
+  "name": "z (Wh/km)", "required": true}, {"type": "double", "name": "Electric range
+  (km)", "required": true}, {"type": "double", "name": "IT28", "required": true},
+  {"type": "double", "name": "IT29", "required": true}, {"type": "double", "name":
+  "IT32", "required": true}, {"type": "double", "name": "IT33", "required": true},
+  {"type": "double", "name": "IT35", "required": true}, {"type": "double", "name":
+  "IT37", "required": true}, {"type": "double", "name": "IT38", "required": true},
+  {"type": "double", "name": "IT39", "required": true}, {"type": "double", "name":
+  "Ft_diesel/electric", "required": true}, {"type": "double", "name": "Ft_petrol",
+  "required": true}, {"type": "double", "name": "Ft_petrol/electric", "required":
+  true}, {"type": "double", "name": "Cr_M1G", "required": true}, {"type": "double",
+  "name": "Cr_M1S", "required": true}, {"type": "double", "name": "Cr_N1G", "required":
+  true}, {"type": "double", "name": "Fm_H", "required": true}, {"type": "double",
+  "name": "Fm_M", "required": true}, {"type": "double", "name": "Fm_P", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "gerard", "mlflow.source.name": "/home/gerard/anaconda3/lib/python3.12/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
