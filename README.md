@@ -8,7 +8,14 @@ Steps done:
 * Data cleaned (errors, outliers, duplicates, missing data)
 * Data enriched (dichotomization, interpretation of innovative technology codes)
 * Evaluation of regression models (select models, select hyperparameters, vizualise with mlflow, arbitrate on robustness and compare scoring)
+* Evaluation of categorization models
 * Use model to make prediction based on new vehicle characteristics
+
+Results
+-------
+* Regression scoring of investigated models and corresponding hyperparameters
+![results_regression01](https://github.com/user-attachments/assets/5f128c32-77d3-43db-aea1-3f6b02ac539d)
+
 
 Project Organization
 ------------
