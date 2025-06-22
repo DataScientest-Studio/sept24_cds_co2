@@ -1,4 +1,4 @@
-Prédiction des émissions de CO2 selon les caractéristiques des véhicules
+Predict CO2 emission according to vehicle characteristics
 ==============================
 
 This is a project by Polina, Vincent and Denis.
