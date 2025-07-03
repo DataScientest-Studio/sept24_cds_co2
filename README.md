@@ -16,6 +16,9 @@ Results
 * Regression scoring of investigated models and corresponding hyperparameters
 ![results_regression01](https://github.com/user-attachments/assets/5f128c32-77d3-43db-aea1-3f6b02ac539d)
 
+* Classification scoring of investigated models and corresponding hyperparameters
+![classif_results](https://github.com/user-attachments/assets/b49c4906-9e05-4bc5-af07-26c2643e96cc)
+
 
 Project Organization
 ------------
